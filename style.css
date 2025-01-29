@@ -22,7 +22,6 @@ header .gauche {
   padding-right: 100px;
 }
 header .G {
-  margin-left: ;
   min-width: 60px;
   margin-right: 10px;
 }
@@ -84,30 +83,41 @@ footer {
 .core {
   width: 20%;
   text-align: center;
-  align-self: ;
 }
 .core h3 {
   font-size: 1.5rem;
   font-weight: 100;
+  margin: 10px;
+}
+.boutons {
+  display: flex;
+  flex-direction: column;
 }
 .core button {
-  display: flex;
   color: #ffff;
   background-color: blue;
   border-radius: 10px;
-  margin-left: 50px;
+  height: 40px;
+  width: 150px;
+  align-self: center;
 }
 
 .investors {
   padding-left: 10rem;
 }
-.icon {
-}
 .icon img {
-  width: 5rem;
   justify-content: space-between;
   padding-left: 100px;
   align-items: end;
+}
+.GV {
+  width: 5rem;
+}
+.firstmark {
+  width: 10rem;
+}
+.khosla {
+  width: 8rem;
 }
 .investors h3 {
   font-size: 20px;
