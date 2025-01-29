@@ -1,0 +1,117 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+/* Navbar */
+header {
+  padding-left: 5px;
+  display: flex;
+  background-color: black;
+  padding-top: 5px;
+}
+header .Helium {
+  padding-left: 20px;
+  color: #ffff;
+  width: 50%;
+}
+header .gauche {
+  color: #ffffffcc;
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content: space-around;
+  padding-right: 100px;
+}
+header .G {
+  margin-left: ;
+  min-width: 60px;
+  margin-right: 10px;
+}
+.Explorer {
+  min-width: 60px;
+  margin-left: 10rem;
+}
+.Ecosystem {
+  min-width: 60px;
+  margin-left: 10rem;
+}
+
+/* Section unique */
+.unique {
+  display: flex;
+  height: 700px;
+  padding-left: 10px;
+  background-color: rgba(0, 0, 0, 0.942);
+}
+.unique .div1 {
+  width: 50%;
+  align-self: center;
+  padding-left: 15px;
+}
+.div1 h1 {
+  font-size: 5.2rem;
+  color: #ffff;
+  font-weight: lighter;
+  margin: 0;
+}
+.div1 .subtitle {
+  color: rgb(68, 0, 255);
+  font-size: 2rem;
+  margin: 0;
+}
+.div1 p {
+  color: #ffff;
+  font-size: small;
+  margin: 0;
+  padding-top: 10px;
+}
+.unique .div2 {
+  width: 50%;
+}
+.unique .div2 img {
+  height: 90%;
+  padding-top: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  display: flex;
+  color: #ffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+.core {
+  width: 20%;
+  text-align: center;
+  align-self: ;
+}
+.core h3 {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.core button {
+  display: flex;
+  color: #ffff;
+  background-color: blue;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.investors {
+  padding-left: 10rem;
+}
+.icon {
+}
+.icon img {
+  width: 5rem;
+  justify-content: space-between;
+  padding-left: 100px;
+  align-items: end;
+}
+.investors h3 {
+  font-size: 20px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  font-weight: 100;
+}
