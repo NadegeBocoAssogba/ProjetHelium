@@ -1,5 +1,6 @@
 body {
   font-family: Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.942);
 }
 /* Navbar */
 header {
@@ -7,6 +8,8 @@ header {
   display: flex;
   background-color: black;
   padding-top: 5px;
+  position: absolute;
+  width: 100%; */
 }
 header .Helium {
   padding-left: 20px;
@@ -33,13 +36,19 @@ header .G {
   min-width: 60px;
   margin-left: 10rem;
 }
+.headerScroll {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 /* Section unique */
 .unique {
   display: flex;
-  height: 700px;
+  height: 100vh;
   padding-left: 10px;
-  background-color: rgba(0, 0, 0, 0.942);
+  padding-top: 50px;
 }
 .unique .div1 {
   width: 50%;
@@ -67,8 +76,12 @@ header .G {
   width: 50%;
 }
 .unique .div2 img {
-  height: 90%;
   padding-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+.uniqueScroll{
+  background-color: red;
 }
 
 /* Footer */
@@ -124,4 +137,129 @@ footer {
   padding-left: 50px;
   padding-bottom: 20px;
   font-weight: 100;
+}
+
+/* Responsivité */
+@media screen and (max-width: 1030px) {
+  .div1 h1 {
+    font-size: 2.5rem;
+  }
+  .div1 .subtitle {
+    font-size: 1rem;
+  }
+  .div1 p {
+    font-size: x-small;
+  }
+  .div2 {
+    height: 200px;
+  }
+  .unique .div2 img {
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  footer {
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .core {
+    width: 30%;
+    text-align: center;
+  }
+  .core h3 {
+    font-size: 1rem;
+  }
+
+  .core button {
+    height: 20px;
+    width: 100px;
+  }
+  .investors {
+    padding-left: 5rem;
+  }
+  .icon img {
+    justify-content: space-between;
+    padding-left: 50px;
+    align-items: end;
+  }
+  .GV {
+    width: 2.5rem;
+  }
+  .firstmark {
+    width: 5rem;
+  }
+  .khosla {
+    width: 4rem;
+  }
+  .investors h3 {
+    font-size: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-weight: 100;
+  }
+  .unique {
+    display: flex;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .unique {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: fit-content;
+    padding-bottom: 20px;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+  .investors {
+    padding-left: 0;
+  }
+  .icon img {
+    justify-content: center;
+    padding-left: 0px;
+    align-items: center;
+  }
+  .GV {
+    width: 2rem;
+  }
+  .firstmark {
+    width: 4rem;
+  }
+  .khosla {
+    width: 3rem;
+  }
+  .investors h3 {
+    font-size: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    font-weight: 50;
+  }
+  .core {
+    width: 20%;
+    text-align: start;
+    padding-left: 20px;
+  }
+  .core h3 {
+    font-size: 0.9rem;
+    font-weight: 50;
+    margin: 5px;
+  }
+  .boutons {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+  }
+  .core button {
+    height: 30px;
+    width: 140px;
+    font-size: 14px;
+  }
 }
